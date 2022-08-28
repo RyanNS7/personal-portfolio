@@ -10,7 +10,7 @@ export function Header(){
     }
 
     return(
-        <div className={`fixed w-screen flex text-xl flex-col align-middle p-2 text-white bg-theme-dark md:h-16 sm:text-2xl tm:text-1xl tm:justify-between tm:flex-row`}>
+        <header className={`fixed w-screen flex text-xl flex-col items-center p-2 text-white bg-theme-dark md:h-16 sm:text-2xl tm:text-1xl tm:justify-between tm:flex-row tm:h-24 shadow-xl`}>
             <div className="w-full flex p-2 justify-between text-center md:p-4 tm:p-2 tm:text-start">
                 <a href="#"> <h2 className=" text-4xl tm:text-3xl font-semibold tm:mr-2">Portfólio</h2> </a>
 
@@ -18,14 +18,14 @@ export function Header(){
 
             </div>
 
-            <div className={`flex bg-theme-dark absolute ${openNavBar ? 'left-0 opacity-100' : 'left-[-480px]'} top-12 transition-all duration-300 w-full h-44 mt-4 tm:w-auto  tm:h-auto tm:mt-0 tm:mr-1 tm:static`}>
-                <ul className="w-full text-center flex flex-col font-semibold md:p-4 tm:p-2 tm:flex-row">
+            <nav className={`flex shadow-xl bg-theme-dark absolute ${openNavBar ? 'left-0 opacity-100' : 'left-[-480px]'} top-[3.5rem] transition-all duration-300 w-full h-44 mt-4 tm:w-auto  tm:h-auto tm:mt-0 tm:mr-1 tm:static tm:shadow-none`}>
+                <ul className="w-full items-center flex flex-col font-semibold md:p-4 tm:p-2 tm:flex-row">
                     <li className="text-2xl p-1 tm:text-xl tm:mr-3"><a href="#"> About </a></li>
                     <li className="text-2xl p-1 tm:text-xl tm:mr-3"><a href="#"> Projects </a></li>
                     <li className="text-2xl p-1 tm:text-xl tm:mr-3"><a href="#"> Skills </a></li>
                     <li className="text-2xl p-1 tm:text-xl"><a href="#"> Contact </a></li>
                 </ul>
-            </div>
-        </div>
+            </nav>
+        </header>
     )
 }
