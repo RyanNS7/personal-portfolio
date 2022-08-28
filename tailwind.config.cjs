@@ -8,11 +8,13 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'tm': '470px'
+        'tm': '470px',
+        'vtm': '331px'
       },
 
       colors: {
         'theme-dark': '#13131F'
+        
       }
     },
   },
