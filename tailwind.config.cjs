@@ -14,7 +14,6 @@ module.exports = {
 
       colors: {
         'theme-dark': '#13131F'
-        
       }
     },
   },
