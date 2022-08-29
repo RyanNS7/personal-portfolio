@@ -10,7 +10,7 @@ export function Header(){
     }
 
     return(
-        <header className={`fixed w-screen flex text-xl flex-col items-center p-2 text-white bg-theme-dark md:h-16 sm:text-2xl tm:text-1xl tm:justify-between tm:flex-row tm:h-24 shadow-xl`}>
+        <header className={` z-10 fixed w-screen flex text-xl flex-col items-center p-2 text-white bg-theme-dark md:h-16 sm:text-2xl tm:text-1xl tm:justify-between tm:flex-row tm:h-24 shadow-xl`}>
             <div className="w-full flex p-2 justify-between text-center md:p-4 tm:p-2 tm:text-start">
                 <a href="#"> <h2 className=" text-4xl tm:text-3xl font-semibold tm:mr-2">Portfólio</h2> </a>
 
