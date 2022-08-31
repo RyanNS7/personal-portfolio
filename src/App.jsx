@@ -1,4 +1,5 @@
 import { About } from "./components/About"
+import { Contact } from "./components/Contact"
 import { Header } from "./components/Header"
 import { Introduction } from "./components/Introduction"
 import { Projects } from "./components/Projects"
@@ -11,6 +12,7 @@ function App() {
     <Introduction />
     <About />
     <Projects />
+    <Contact />
     </>
   )
 }
