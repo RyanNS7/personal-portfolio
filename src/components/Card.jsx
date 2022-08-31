@@ -2,7 +2,7 @@
 
 export function Card({project}){
     return(
-            <div className=' w-full h-80 relative mb-4'>
+            <div className=' w-full h-80 relative mb-4 md:w-full sm:w-[75%] sm:m-auto sm:mb-4'>
 
             <div className='w-full h-full'>
                 <img src={project.image_project} className='w-full h-full' />

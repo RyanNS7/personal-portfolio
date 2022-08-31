@@ -1,4 +1,5 @@
 import simple_store from '../assets/first_project.png'
+import countries_project from '../assets/countries.png'
 import { Card } from './Card'
 import { FaReact, FaNodeJs } from 'react-icons/fa'
 import { SiPostgresql, SiStyledcomponents } from 'react-icons/si'
@@ -14,7 +15,14 @@ export function Projects(){
             development: 'Em Desenvolvimento',
             link_project: 'https://simple-ecommerce-pg.netlify.app/'
         },
-        {},{},{},{},{}
+        {
+            image_project: countries_project,
+            title_project: 'Search Countries',
+            description: 'Um projeto React com o intuito da busca de informações de diversos paises',
+            languages_used: [<FaReact />, <SiStyledcomponents /> ],
+            development: '',
+            link_project: 'https://rest-country-api-search.netlify.app/'
+        },{},{},{},{}
     ]
 
     return(
@@ -26,7 +34,7 @@ export function Projects(){
                 {projects.map((project, key) => {
                     if(Object.keys(project).length == 0){
 
-                     return <div className=' w-full h-80 relative mb-4 cursor-pointer'>
+                     return <div className=' w-full h-80 relative mb-4 cursor-pointer md:w-full sm:w-[75%] sm:m-auto sm:mb-4'>
                                 <div className='w-full h-full bg-black flex items-center justify-center flex-col'>
                                     <span className='text-3xl mb-4 text-center p-2'>Projeto em Desenvolvimento</span>
                                 </div>
