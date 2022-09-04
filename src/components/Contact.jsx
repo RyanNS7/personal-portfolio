@@ -4,13 +4,8 @@ import { MdOutlineMail } from 'react-icons/md'
 export function Contact(){
     return(
         <div className="w-full flex justify-center items-center flex-col">
-<<<<<<< HEAD
             <div className='w-full text-center p-4 mt-8'>
                 <h3 className="text-gray-500 text-4xl"> Contact </h3>
-=======
-            <div className='w-full text-center p-4'>
-                <h3 className="text-gray-500 text-5xl"> Contact </h3>
->>>>>>> 9ed4afd54037cedf38ff1e36bed45e5a03015a58
             </div>
 
             <div className='w-full text-center mt-8 tm:p-4 tm:grid tm:gap-4 md:grid-cols-4'>
