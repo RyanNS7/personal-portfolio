@@ -8,9 +8,7 @@ export function About(){
                 <h3 className="text-gray-500">Sobre Mim</h3>
             </div>
 
-            <div className="p-4 w-full">
-                <p>Ryan</p>
-            </div>
+            <div className="p-4 w-full"></div>
             
         </section>
     )
