@@ -9,7 +9,7 @@ export function About(){
             </div>
 
             <div className="p-4 w-full">
-
+                <p>Ryan</p>
             </div>
             
         </section>
