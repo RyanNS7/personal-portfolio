@@ -1,5 +1,5 @@
-import simple_store from '../assets/store.png'
-import countries_project from '../assets/country.png'
+import simple_store from '../assets/online_store.png'
+import countries_project from '../assets/countries.png'
 import { Card } from './Card'
 import { FaReact, FaNodeJs } from 'react-icons/fa'
 import { SiPostgresql, SiStyledcomponents } from 'react-icons/si'
