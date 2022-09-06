@@ -5,7 +5,7 @@ export function Contact(){
     return(
         <div className="w-full flex justify-center items-center flex-col">
             <div className='w-full text-center p-4 mt-8'>
-                <h3 className="text-gray-500 text-4xl"> Contact </h3>
+                <h3 className="text-gray-500 text-4xl"> Contato </h3>
             </div>
 
             <div className='w-full text-center mt-8 tm:p-4 tm:grid tm:gap-4 md:grid-cols-4'>
