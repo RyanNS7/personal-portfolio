@@ -23,7 +23,7 @@ export function About(){
                     <q className="w-full block text-center p-4 my-2 shadow-2xl bg-gray-700/30 text-gray-300">Cada dia mais uma descoberta...
                     Cada dia mais um aprendizado (...)!</q>      
 
-                    Pois é através do aprendizado que podemos evoluir cada vez mais como profissional e principalmente 
+                    &emsp;Pois é através do aprendizado que podemos evoluir cada vez mais como profissional e principalmente 
                     como pessoa.
                 </p>
 
