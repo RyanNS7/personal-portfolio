@@ -17,7 +17,7 @@ export function Skills(){
     ]
 
     return(
-        <section className="w-full mt-12">
+        <section id='skills' className="w-full mt-12">
             <div className="p-4">
                 <h3 className="text-gray-500 text-4xl text-center font-semibold"> Habilidades </h3>
             </div>

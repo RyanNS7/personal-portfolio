@@ -26,7 +26,7 @@ export function Projects(){
     ]
 
     return(
-        <section className="w-full mt-12">
+        <section id='projects' className="w-full mt-12">
 
             <div className='p-4'> <h3 className="text-gray-500 text-3xl text-center font-semibold">Projetos Desenvolvidos</h3> </div>
 
