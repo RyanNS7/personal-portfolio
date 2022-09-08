@@ -27,12 +27,6 @@ export function About(){
                     como pessoa.
                 </p>
 
-                <p className="indent-4 lg:w-1/2 sm:w-[70%] tm:m-auto tm:mt-4 tm:text-center">
-                    Uma qualidade que gosto sempre de aprimorar cada vez mais é a comunicação, 
-                    pois devido a experiencias antigas de trabalho fora da area de programação atuei por um 
-                    tempo com diversos tipos de pessoas que me permitiram ter uma confiança maior em minha sociabilidade.
-                </p>
-
             </div>
             
         </section>
