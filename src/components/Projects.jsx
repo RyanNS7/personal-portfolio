@@ -34,7 +34,7 @@ export function Projects(){
                 {projects.map((project, key) => {
                     if(Object.keys(project).length == 0){
 
-                     return <div className=' w-full h-80 relative mb-4 cursor-pointer md:w-full sm:w-[75%] sm:m-auto sm:mb-4'>
+                     return <div key={key} className=' w-full h-80 relative mb-4 cursor-pointer md:w-full sm:w-[75%] sm:m-auto sm:mb-4'>
                                 <div className='w-full h-full bg-black flex items-center justify-center flex-col'>
                                     <span className='text-3xl mb-4 text-center p-2'>Projeto em Desenvolvimento</span>
                                 </div>

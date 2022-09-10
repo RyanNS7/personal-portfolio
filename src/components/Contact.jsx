@@ -3,7 +3,7 @@ import { MdOutlineMail } from 'react-icons/md'
 
 export function Contact(){
     return(
-        <div id='contact' className="w-full flex justify-center items-center flex-col">
+        <footer id='contact' className="w-full flex justify-center items-center flex-col">
             <div className='w-full text-center p-4 mt-8'>
                 <h3 className="text-gray-500 text-4xl"> Contato </h3>
             </div>
@@ -56,6 +56,6 @@ export function Contact(){
 
             </div>
 
-        </div>
+        </footer>
     )
 }
